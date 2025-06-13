@@ -1,3 +1,10 @@
+// (C) 2025 mettbroetchen43 / Sascha Mester
+// All Rights Reserved
+// This file is part of https://mettbroetchen43.github.io
+// This file is licensed under the AGPL License.
+// License text available at https://www.gnu.org/licenses/agpl-3.0.txt
+
+
 fetch('https://api.github.com/repos/mettbroetchen43/mettbroetchen43.github.io/commits')
   .then(response => {
     if (!response.ok) throw new Error('Netzwerkfehler');
